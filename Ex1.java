@@ -5,8 +5,8 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Main {
-    private static Logger log = LoggerFactory.getLogger(Main.class);
+public class Ex1 {
+    private static Logger log = LoggerFactory.getLogger(Ex1.class);
 
     private static Scanner input = new Scanner(System.in);
 
@@ -29,11 +29,11 @@ public class Main {
 
 
         }
-
+//faccio un for-each per stampare il numero e l'elenco delle parole
         for (String parola : numParoleDuplicate) {
             log.info("l'elenco delle parole doppie distinte è: " + parola);
         }
-        for (String parola : numParole) {       //stampo le parole di
+        for (String parola : numParole) {
             log.info("l'elenco delle parole distinte è: " + parola);
         }
         log.info("Il numero delle parole distinte è: " + numParole.size());
